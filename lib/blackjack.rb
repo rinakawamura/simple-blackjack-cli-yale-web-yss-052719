@@ -34,7 +34,7 @@ def initial_round
   card2 = deal_card
   sum = card1 + card2
   display_card_total(sum)
-  retunr sum
+  retun sum
 end
 
 def hit?(num)
