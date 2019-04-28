@@ -64,10 +64,10 @@ def runner
   # code runner here
   welcome
   total = initial_round
-  puts total
+  print total
   until total > 21
     total = hit?(total)
-    puts total
+    print total
   end
   end_game(total)
 
